@@ -3,7 +3,7 @@ gg.setVisible(false)
 MMSX=0
 
 function LOGIN()
-t = gg.makeRequest('https://pastebin.com/raw/zVXtpF8F').content if t then pcall(load(t)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/User').content if t then pcall(load(t)) end
 end
 
 function LOGOUT()
