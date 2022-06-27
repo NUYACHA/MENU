@@ -6,14 +6,14 @@ if os.date("%Y%m%d") > "20220625" then
 gg.alert("หมดอายุแล้วจ้า")
 os.exit()
 end
-t = gg.makeRequest('https://pastebin.com/raw/EVMqk6hX').content if t then pcall(load(t)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
 KILL=0
 end
  
  
 --ของพี่นุ
 if User=="MMSX" and Password=="NUXED" then
-t = gg.makeRequest('https://pastebin.com/raw/EVMqk6hX').content if t then pcall(load(t)) end
+t = gg.makeRequest('https://raw.githubusercontent.com/NUYACHA/MENU/main/MENU').content if t then pcall(load(t)) end
 KILL=0
 end
  
