@@ -20,6 +20,6 @@ end
  
  
 if KILL==1 then
-gg.alert("password นี้หมดอายุแล้ว")
+gg.alert("ไม่มี USER นี้")
 io.open("/storage/emulated/0/Android/data/LOGIN.lua","w")
 end
