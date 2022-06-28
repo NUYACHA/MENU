@@ -1,4 +1,4 @@
-# MENUfunction MENU1()
+function MENU1()
 
 A = gg.choice ({
 
